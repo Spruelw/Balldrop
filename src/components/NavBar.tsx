@@ -5,6 +5,7 @@ import HighscoreList from "./HighscoreList"
 type endGameFunction =  {
     endGame: ()=>void,
 }
+
 const NavBar: React.FC<endGameFunction> = (props: endGameFunction) => {
 
     const [showHighscores, setShowHighscores] = useState(false)
